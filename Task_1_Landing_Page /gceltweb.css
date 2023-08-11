@@ -1,0 +1,82 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #2d0e7b;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #2d0e7b;
+  }
+  
+  
+  nav {
+    background-color: #5cd1ee;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  nav h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  
+  .Abid {
+    background-image:url(c:\Users\hp-cn\Downloads\gcelt.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .Abid h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+
+  footer {
+    background-color: #e6dddd;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
